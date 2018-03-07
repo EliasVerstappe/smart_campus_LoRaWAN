@@ -1,4 +1,6 @@
-# mbed-ttnmapper
+# Smart Campus
+
+#### mbed-ttnmapper (using LoRaWAN)
 MBed implementation that sends data from an mbed to the things network.
 
 ## Installation
