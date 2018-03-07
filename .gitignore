@@ -1,0 +1,15 @@
+.temp/
+.build/
+mbed_settings.py
+mbed_settings.pyc
+
+.mbed
+projectfiles
+*.py*
+
+src/settings.h
+BUILD/
+LogIt/
+MBed_Adafruit-GPS-Library/
+Simple-LoRaWAN/
+mbed/
