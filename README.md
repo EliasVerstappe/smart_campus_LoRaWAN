@@ -31,7 +31,21 @@ Because the .mbed file contains `TARGET=LPC1768` and `TOOLCHAIN=GCC_ARM`, you ca
 mbed compile -f
 ```
 
+# The Things network
 
+## Filter
+<!-- Decoder -->
+Using the payload functions, i can decode the received data and store it in a JSON string.
+
+Temperatuur:    2 byte      +, - and komma
+                            Send an integer from the mbed (21.5 * 10 = 215) and devide it by 10 in the filter.
+Humidity:       1 byte      0 -> 100%
+Movement:       2 byte      Counts the amount of edges
+
+```
+
+
+```
 
 ## Source
 
