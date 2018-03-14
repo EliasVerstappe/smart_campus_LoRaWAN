@@ -43,11 +43,15 @@ Using the payload functions, i can decode the received data and store it in a JS
 |Humidity       |1 byte     |signed int    |0 -> 100%                                                                         |
 |Movement       |2 byte     |signed int    |Counts the amount of edges                                                        |
 
-Voorbeeldwaarden: 21.5°, 27%, 73
+Example values: 21.5°, 27%, 73
 
+Binairy:
 0000 0000 1101 0111
 0001 1011
 0000 0000 0100 1001
+
+Hexadecimal:
+00D71B0049
 
 ```js
 function Decoder(bytes, port) {
