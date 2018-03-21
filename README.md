@@ -21,14 +21,18 @@ the example file, and edit it to your preferences.
 cp .\src\settings.example.h .\src\settings.h
 ```
 
-Now you can build the program and flash it to your mbed
+### Compiling
+
+You can build the program and flash it to your mbed
 ```
 mbed compile -f -m LPC1768 -t GCC_ARM
 ```
-Because the .mbed file contains `TARGET=LPC1768` and `TOOLCHAIN=GCC_ARM`, you can also do this:
 
+[NUCLEO](NUCLEO.md)
+
+When using the `NUCLEO-L073RZ`, use the following command:
 ```
-mbed compile -f
+mbed compile -f -m NUCLEO_L073RZ -t GCC_ARM
 ```
 
 # The Things network
