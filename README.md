@@ -37,9 +37,9 @@ mbed compile -f -m NUCLEO_L073RZ -t GCC_ARM
 
 # The Things network
 
-[Uplink](.\report\uplink.md)
+[Uplink](.report\uplink.md)
 
-[Downlink](.\report\downlink.md)
+[Downlink](.report\downlink.md)
 
 
 
