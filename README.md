@@ -28,7 +28,11 @@ You can build the program and flash it to your mbed
 mbed compile -f -m LPC1768 -t GCC_ARM
 ```
 
+<<<<<<< HEAD
 [NUCLEO](/report/NUCLEO.md)
+=======
+[NUCLEO](./NUCLEO.md)
+>>>>>>> 1c851411d40450ef245a9d5218d8cfdea860052f
 
 When using the `NUCLEO-L073RZ`, use the following command:
 ```
